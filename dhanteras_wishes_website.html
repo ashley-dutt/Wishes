@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#170b24">
+<title>Shubh Dhanteras ✨</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap');
+:root{--gold:#f8d77b;--gold2:#fff0b8;--cream:#fff7df;--wine:#3b102f;--pink:#f7a8a8}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:'DM Sans',sans-serif;color:var(--cream);background:#170b24}
+body{overflow-x:hidden;background:radial-gradient(ellipse at 50% 0%,#59234b 0%,#28112f 48%,#10091c 100%);min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;background-image:radial-gradient(#ffe7a3 1px,transparent 1px);background-size:37px 37px;mask-image:linear-gradient(to bottom,#000,transparent 85%)}
+.screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px 18px;position:relative}
+.panel{width:min(100%,650px);text-align:center;position:relative;z-index:2;padding:42px 28px 38px;border:1px solid rgba(248,215,123,.38);border-radius:28px;background:linear-gradient(145deg,rgba(72,25,61,.88),rgba(24,12,34,.9));box-shadow:0 24px 90px #08040c99,inset 0 0 45px #f6c95c0b;overflow:hidden}
+.panel:before,.panel:after{content:"✦";position:absolute;color:#f8d77b77;font-size:28px}.panel:before{top:17px;left:22px}.panel:after{right:22px;bottom:18px}
+.mandala{font-size:43px;filter:drop-shadow(0 0 14px #ffc85a99);animation:rotate 24s linear infinite;display:inline-block}
+@keyframes rotate{to{transform:rotate(360deg)}}
+.eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:var(--gold);margin:14px 0 9px}
+h1{font-family:'Cinzel',serif;color:var(--gold2);font-size:clamp(34px,7vw,57px);line-height:1.12;margin:8px 0;text-shadow:0 3px 28px #ffc45a55}
+.sub{color:#f5dce7;line-height:1.7;font-size:15px;max-width:460px;margin:15px auto 25px}
+input{width:min(100%,390px);padding:17px 18px;border-radius:13px;border:1px solid #f8d77b88;background:#160b20;color:#fff8e8;font:500 16px 'DM Sans';outline:none;text-align:center;transition:.25s}
+input:focus{border-color:var(--gold2);box-shadow:0 0 0 4px #f8d77b20}
+input::placeholder{color:#bda6b9}
+button{display:block;margin:17px auto 0;border:0;border-radius:999px;padding:15px 31px;background:linear-gradient(100deg,#f6c75d,#fff0b0,#e9ad42);color:#3a1730;font:700 14px 'DM Sans';letter-spacing:.04em;cursor:pointer;box-shadow:0 8px 28px #eebd4b44;transition:transform .2s,box-shadow .2s}
+button:hover{transform:translateY(-3px);box-shadow:0 13px 34px #eebd4b66}
+.hint{font-size:11px;color:#cbb5c7;margin-top:15px}
+#celebration{display:none}
+#welcome{font-family:'Tiro Devanagari Hindi',serif;color:#fff0b8;font-size:clamp(25px,5vw,39px);margin:6px 0 10px}
+.name{font-family:'Cinzel',serif;color:#fff;font-size:clamp(24px,5vw,35px);margin:0 0 18px;text-shadow:0 0 24px #ffcf63}
+.message{font-size:clamp(14px,2.5vw,17px);line-height:1.9;color:#f8e9e8;max-width:520px;margin:0 auto}
+.wish-highlight{color:var(--gold2);font-weight:700}
+.lamp{font-size:70px;display:inline-block;margin:10px 0 13px;filter:drop-shadow(0 0 20px #ffb22e);animation:flicker 1.7s ease-in-out infinite alternate}
+@keyframes flicker{from{transform:scale(1) rotate(-2deg);filter:drop-shadow(0 0 12px #ff9d24)}to{transform:scale(1.08) rotate(2deg);filter:drop-shadow(0 0 28px #ffcf5c)}}
+.divider{width:100px;height:1px;margin:24px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.signature{font-family:'Cinzel',serif;letter-spacing:.14em;color:var(--gold);font-size:11px;margin-top:25px}
+.spark{position:fixed;z-index:1;pointer-events:none;animation:rise linear infinite;opacity:0;color:#ffe8a1;text-shadow:0 0 12px #ffd15d}
+@keyframes rise{0%{transform:translateY(110vh) rotate(0);opacity:0}10%{opacity:.9}90%{opacity:.8}100%{transform:translateY(-12vh) rotate(300deg);opacity:0}}
+.coin{position:fixed;z-index:1;top:-50px;border-radius:50%;width:22px;height:22px;border:2px solid #ffe7a0;background:radial-gradient(circle at 35% 30%,#fff3b8,#d99525 65%,#8b4a13);box-shadow:0 0 12px #ffc84d77;animation:fall linear infinite}
+@keyframes fall{to{transform:translateY(115vh) rotate(720deg)}}
+.footer-note{font-size:11px;color:#c9afc3;margin-top:20px}
+@media(max-width:480px){.panel{padding:35px 19px 31px;border-radius:22px}.sub{font-size:14px}.screen{padding:16px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main class="screen" id="entry">
+  <section class="panel">
+    <div class="mandala">✺</div>
+    <div class="eyebrow">A celebration of prosperity & light</div>
+    <h1>Shubh Dhanteras</h1>
+    <p class="sub">May this auspicious day bring home the glow of happiness, the wealth of good health, and a lifetime of peace and prosperity.</p>
+    <form id="nameForm">
+      <input id="personName" type="text" maxlength="32" placeholder="Enter your name" autocomplete="name" required aria-label="Your name">
+      <button type="submit">Open Your Wishes <span aria-hidden="true">✧</span></button>
+    </form>
+    <div class="hint">A little festive surprise, made just for you ✨</div>
+  </section>
+</main>
+<main class="screen" id="celebration">
+  <section class="panel">
+    <div class="eyebrow">With love, light & blessings</div>
+    <div class="lamp">🪔</div>
+    <div id="welcome">शुभ धनतेरस</div>
+    <div class="name" id="displayName"></div>
+    <p class="message">
+      May Goddess Lakshmi bless your home with <span class="wish-highlight">abundance</span>,
+      Lord Dhanvantari bless you with <span class="wish-highlight">good health</span>,
+      and every diya light a new path of <span class="wish-highlight">success and joy</span>.
+      <br><br>
+      May your days sparkle with laughter, your dreams turn into reality, and your life always shine brighter than a thousand diyas.
+    </p>
+    <div class="divider"></div>
+    <div id="closing" style="font-family:'Tiro Devanagari Hindi',serif;color:#ffe6a1;font-size:21px">आपको और आपके परिवार को धनतेरस की हार्दिक शुभकामनाएँ!</div>
+    <div class="signature">HAPPY DHANTERAS · शुभ धनतेरस</div>
+    <button type="button" id="again">Send wishes to someone else ↗</button>
+    <div class="footer-note">May prosperity and positivity always find their way to you.</div>
+  </section>
+</main>
+<script>
+const entry=document.getElementById('entry'), celebration=document.getElementById('celebration');
+const form=document.getElementById('nameForm'), nameInput=document.getElementById('personName');
+function showWishes(name){
+  const safeName=name.trim().replace(/\s+/g,' ');
+  if(!safeName)return;
+  document.getElementById('displayName').textContent=safeName;
+  entry.style.display='none';celebration.style.display='flex';
+  document.title='Happy Dhanteras, '+safeName+'!';
+  window.scrollTo({top:0,behavior:'smooth'});
+  burst();
+}
+form.addEventListener('submit',e=>{e.preventDefault();showWishes(nameInput.value)});
+document.getElementById('again').addEventListener('click',()=>{
+  celebration.style.display='none';entry.style.display='flex';nameInput.value='';
+  document.title='Shubh Dhanteras ✨';nameInput.focus();
+});
+function burst(){
+  const symbols=['✦','✧','❋','✨','✺'];
+  for(let i=0;i<34;i++){
+    const s=document.createElement('span');s.className='spark';
+    s.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+    s.style.left=Math.random()*100+'vw';s.style.fontSize=(10+Math.random()*17)+'px';
+    s.style.animationDuration=(5+Math.random()*8)+'s';s.style.animationDelay=(Math.random()*3)+'s';
+    document.body.appendChild(s);
+  }
+}
+for(let i=0;i<13;i++){
+  const c=document.createElement('i');c.className='coin';
+  c.style.left=Math.random()*100+'vw';c.style.animationDuration=(8+Math.random()*12)+'s';
+  c.style.animationDelay=(-Math.random()*18)+'s';c.style.opacity=.25+Math.random()*.55;
+  document.body.appendChild(c);
+}
+burst();
+</script>
+</body>
+</html>
